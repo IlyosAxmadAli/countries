@@ -30,11 +30,15 @@ body {
 }
 .header {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--bg-cards);
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
   margin-bottom: 48px;
   transition: all 0.2s linear;
   position: fixed;
+  z-index: 1;
 }
 .header-container {
   padding-top: 24px;
@@ -70,7 +74,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 48px;
+  padding-top: 120px;
+  margin-bottom: 50px;
 }
 form {
   max-width: 480px;
@@ -124,7 +129,6 @@ select option:not(:last-child) {
   /* grid-template-rows: repeat(auto-fill, minmax(200px, 1fr)); */
   row-gap: 75px;
   column-gap: 74px;
-  padding-top: 140px;
 }
 .card-link {
   display: inline-block;
@@ -198,6 +202,10 @@ select option:not(:last-child) {
 }
 .back-btn i {
   margin-right: 5px;
+  display: inline-block;
+}
+.back {
+  padding-top: 120px;
 }
 /* .country-img{
     margin-right: auto;
