@@ -70,6 +70,8 @@ body {
   margin-right: 10px;
 }
 .searcher {
+  position: sticky;
+  top: -47px;
   width: 100%;
   display: flex;
   align-items: center;
